@@ -1,3 +1,5 @@
+/* Estilização comum à todas as páginas */
+
 *{
   font-family: 'Archivo', sans-serif;
 }
@@ -92,4 +94,37 @@ nav{
 	transform: translate(320px, 0);
 	padding-right:0;
   width: 20rem;
+}
+
+
+/* Fim da estilização comum */
+
+.secao-grupos, .secao-noticias{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.grupos, .noticias{
+  background: white;
+  position: relative;
+  width: 25rem;
+  height: 5rem;
+  padding-left: 1rem;
+  margin: 1rem;
+  border-radius: 0.8rem;
+  z-index: -1;
+}
+
+.grupos img, .noticias img{
+  float:right;
+  height: 5rem;
+  width:5rem;
+  border-radius:0.1rem;
+}
+
+.grupos a, .noticias a{
+  font-size: 1rem;
+  margin: 0;
 }
