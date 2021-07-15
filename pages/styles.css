@@ -11,6 +11,7 @@ body{
   background: #F4EBD0;
 }
 
+
 .titulo-logo{
   display: flex;
   flex-direction: column;
@@ -31,53 +32,6 @@ h1 img{
 h3{
   margin-top: 0;
   font-size: 2rem;
-}
-
-.secao-colmeias{
-  display: flex;
-  justify-content: flex-start;
-}
-
-.colmeia{
-  height: 12.4rem;
-  width: 10rem;
-  margin: 0.2rem;
-  background: #D6AD60;
-  border-radius: 2rem;
-  font-size: 10px;
-  display: flex;
-  flex-direction: column;
-  }
-
-.colmeia h4{
-  font-size: 1rem;
-  text-align: center;
-}
-
-.icon-dados{
-  display: flex;
-  margin: 0.4rem;
-}
-
-.icon-dados img{
-  margin-top: -0.15rem;
-  width: 20px;
-  height: 20px;
-}
-
-button{
-  border: none;
-  background: #CD7F32;
-  margin-bottom: 1rem;
-  margin-top: 3rem;
-  height: 2rem;
-  width: 6rem;
-  border-radius: 0.8rem;
-  cursor: pointer;
-}
-
-button:hover{
-  background: #FBB03B;
 }
 
 
@@ -107,7 +61,6 @@ nav{
 
 }
 
-
 #barra-lateral{
   padding: 0 50px 0 0;
 	-moz-transition: all 0.5s ease;
@@ -124,7 +77,7 @@ nav{
 
 #barra-lateral:before {
 	z-index:1000;
-	content: url("images/barra-lateral2.svg");
+	content: url("../images/barra-lateral2.svg");
 	position:fixed;
 	left:4px;
 	top:45px;
