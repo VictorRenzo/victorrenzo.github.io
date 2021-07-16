@@ -14,7 +14,6 @@ body{
 .titulo-logo{
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 h1{
   font-size: 3rem;
@@ -140,4 +139,29 @@ nav{
 	transform: translate(320px, 0);
 	padding-right:0;
   width: 20rem;
+}
+
+.resumo{
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.grafico{
+  display: flex;
+  flex-direction: column;
+  margin: 0.6rem;
+}
+
+#clima{
+  margin: 2rem;
+}
+
+#resultados{
+  margin: 2rem;
+  margin-left: -8rem;
+}
+#resultados img{
+  width: 150px;
 }

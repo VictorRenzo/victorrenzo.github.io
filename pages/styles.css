@@ -120,14 +120,13 @@ nav{
   float:right;
   height: 5rem;
   width:5rem;
-
 }
 
 .noticias a{
   font-size: 1rem;
   margin: 0;
   cursor: pointer;
-  
+
 }
 
 .noticias a:hover{
@@ -153,4 +152,30 @@ nav{
 .texto{
   margin-top: 1rem;
   margin-left: 3rem;
+}
+
+
+.secao-informacoes{
+  background: white;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 10%;
+  padding: 1rem;
+  margin: 0.2rem;
+  margin-top: 1rem;
+}
+
+.informacoes{
+  margin: 0.8rem;
+  font-size: 1.6rem;
+
+}
+
+.informacoes:hover{
+  color: gray;
+  cursor: pointer;
+}
+
+#nome-completo{
+  margin-bottom: 1rem;
 }
