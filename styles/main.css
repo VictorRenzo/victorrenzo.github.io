@@ -58,7 +58,7 @@ body{
   color: rgb(198, 187, 177);
 }
 
-.containerContent{
+.containerContentHome{
   align-self: center;
   position: absolute;
   top: 40vh;
@@ -101,6 +101,10 @@ h2{
   display: flex;
   align-items: center;
   color: #C0C0C0;
+}
+
+.disabled{
+  display: none;
 }
 
 /*

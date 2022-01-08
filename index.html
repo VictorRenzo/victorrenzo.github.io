@@ -13,15 +13,15 @@
 
 <body>
   <nav class = "nav">
-    <a href = "https://victorrenzo.github.io/"><img class = "logo" src = "assets/logo.svg"/></a>
+    <img onclick = "changeToHome()" class = "logo" src = "assets/logo.svg"/>
     <ul class = "links">
-      <li><a class = "linkItem" href = "#">projects</a></li>
-      <li><a class = "linkItem" href = "#">cv</a></li>
-      <li><a class = "linkItem" href = "https://github.com/VictorRenzo/">gh</a></li>
-      <li><a class = "linkItem" href = "#">about</a></li>
+      <li onclick = "changeToProjects()" class = "linkItem">projects</li>
+      <li onclick = "changeToCV()" class = "linkItem">cv</li>
+      <li><a class = "linkItem" href = "https://github.com/VictorRenzo/" target = "_blank">gh</a></li>
+      <li onclick = "changeToAbout()" class = "linkItem">about</li>
     </ul>
   </nav>
-  <section class = "containerContent">
+  <section class = "containerContentHome">
     <h6>Hi, my name is</h6>
     <h1 class = "myName">Victor Renzo</h1>
     <h4>I'm becoming a fullstack developer</h4>
@@ -29,6 +29,17 @@
   <div class = "temporary">
     <h4>portfolio in development</h2>
   </div>
+
+  <section class = "containerContentProjects disabled">
+  </section>
+
+  <section class = "containerContentCV disabled">
+  </section>
+
+  <section class = "containerContentAbout disabled">
+  </section>
+
 </body>
 
+<script src = 'scripts/navigation.js'></script>
 </html>
