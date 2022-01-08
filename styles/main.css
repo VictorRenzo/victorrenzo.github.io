@@ -102,3 +102,23 @@ h2{
   align-items: center;
   color: #C0C0C0;
 }
+
+/*
+@media screen and (max-width: 1400px){
+  .myName{
+    font-size: 64px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  h4{
+    font-size: 26px;
+  }
+
+  h6{
+    font-size: 18px;
+  }
+}
+*/
