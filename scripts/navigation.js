@@ -8,7 +8,6 @@ function changeToProjects(){
   sectionCV.classList.add("disabled");
   sectionAbout.classList.add("disabled");
   sectionHome.classList.add("disabled");
-  console.log("oi");
 }
 
 function changeToAbout(){

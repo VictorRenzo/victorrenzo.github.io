@@ -58,10 +58,20 @@ body{
   color: rgb(198, 187, 177);
 }
 
-.containerContentHome{
+
+@keyframes gradientTransition {
+  0%    { opacity: 0; }
+  20%   { opacity: 0.2; }
+  80%   { opacity: 0.6; }
+  100%  { opacity: 1; }
+}
+
+
+.containerContentHome, .containerContentCV, .containerContentAbout, .containerContentProjects{
   align-self: center;
   position: absolute;
   top: 40vh;
+  animation: gradientTransition 1.2s;
 }
 
 .temporary{
@@ -106,6 +116,18 @@ h2{
 .disabled{
   display: none;
 }
+
+@keyframes move {
+  from {
+      left: 5%;
+  }
+  to {
+      left: 85%;
+  }
+}
+
+
+
 
 /*
 @media screen and (max-width: 1400px){
