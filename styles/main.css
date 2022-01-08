@@ -18,7 +18,37 @@ body{
   background-size: cover;
 }
 
-navbar{
+.logo:hover{
+  cursor: pointer;
+}
+
+.nav{
   padding: 3rem;
-  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.linkItem{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin-left: 2rem;
+}
+
+.linkItem:hover{
+  cursor: pointer;
+  color: rgb(198, 187, 177);
 }
