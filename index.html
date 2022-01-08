@@ -1,129 +1,29 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="styles/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="images/logo.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <meta charset="utf-8">
-  <title>BeeData</title>
+  <title>Victor Renzo - Developer</title>
 </head>
 
 
 <body>
-  <!-- HEADER -->
-  <header>
-    <nav id = 'barra-lateral'>
-      <a href = "index.html"><img class = 'icon' src = "images/home.svg"/>Início</a>
-      <a href = "index2.html"><img class = 'icon' src = "images/colmeia.svg"/>Colmeias</a>
-      <a href = "pages/comunidade.html"><img class = 'icon' src = "images/grupo.svg"/>Comunidade</a>
-      <a href = "pages/resultados.html"><img class = 'icon' src = "images/resultados.svg"/>Resultados</a>
-      <a href = "pages/perfil.html"><img class = 'icon' src = "images/perfil.svg"/>Perfil</a>
-    </nav>
-  </header>
+  <navbar class = "nav">
+    <img class = "logo" src = "assets/logo.svg"/>
+    <ul class = "links">
+      <li>projects</li>
+      <li>cv</li>
+      <li>gh</li>
+      <li>about</li>
+    </ul>
+  </navbar>
+  <section class = "containerContent">
 
-<div id = "nao-header">
-  <section class = 'titulo-logo'>
-    <h1><img src = "images/logo.svg"/> BeeData</h1>
   </section>
-
-  <h3> Suas colmeias </h3>
-  <section class = 'secao-colmeias'>
-    <div id = 'colmeia1' class = 'colmeia'>
-      <h4> Colmeia 1 </h4>
-      <div class = "icon-dados"><img  src = "images/temperatura.svg" id = "temperatura"/> 25°C</div>
-      <div class = "icon-dados"><img  src = "images/umidade.svg" id = "umidade"/> 66%</div>
-      <div class = "icon-dados"><img src = "images/peso.svg" id = "peso"/> 11kg</div>
-      <div class = "icon-dados"><img  src = "images/localizacao.svg" id = "localizacao"/> São Paulo</div>
-
-    </div>
-
-    <div id = 'colmeia2' class = 'colmeia'>
-      <h4> Colmeia 2 </h4>
-      <div class = "icon-dados"><img  src = "images/temperatura.svg" id = "temperatura"/> 29°C</div>
-      <div class = "icon-dados"><img  src = "images/umidade.svg" id = "umidade"/> 47%</div>
-      <div class = "icon-dados"><img src = "images/peso.svg" id = "peso"/> 9kg</div>
-      <div class = "icon-dados"><img  src = "images/localizacao.svg" id = "localizacao"/> Rio de Janeiro</div>
-    </div>
-
-    <div id = 'colmeia3' class = 'colmeia'>
-      <h4> Colmeia 3 </h4>
-      <div class = "icon-dados"><img  src = "images/temperatura.svg" id = "temperatura"/> 23°C</div>
-      <div class = "icon-dados"><img  src = "images/umidade.svg" id = "umidade"/> 65%</div>
-      <div class = "icon-dados"><img src = "images/peso.svg" id = "peso"/> 17kg</div>
-      <div class = "icon-dados"><img  src = "images/localizacao.svg" id = "localizacao"/> Belo Horizonte</div>
-    </div>
-
-    <div id = 'colmeia4' class = 'colmeia'>
-      <h4> Colmeia 4 </h4>
-      <div class = "icon-dados"><img  src = "images/temperatura.svg" id = "temperatura"/> 31°C</div>
-      <div class = "icon-dados"><img  src = "images/umidade.svg" id = "umidade"/> 57%</div>
-      <div class = "icon-dados"><img src = "images/peso.svg" id = "peso"/> 7kg</div>
-      <div class = "icon-dados"><img  src = "images/localizacao.svg" id = "localizacao"/> São Carlos</div>
-    </div>
-
-    <div id = 'colmeia5' class = 'colmeia'>
-      <h4> Colmeia 5 </h4>
-      <div class = "icon-dados"><img  src = "images/temperatura.svg" id = "temperatura"/> 24°C</div>
-      <div class = "icon-dados"><img  src = "images/umidade.svg" id = "umidade"/> 66%</div>
-      <div class = "icon-dados"><img src = "images/peso.svg" id = "peso"/> 12kg</div>
-      <div class = "icon-dados"><img  src = "images/localizacao.svg" id = "localizacao"/>Campinas</div>
-    </div>
-
-    <div id = 'colmeia6' class = 'colmeia'>
-      <h4> Colmeia 6 </h4>
-      <div class = "icon-dados"><img  src = "images/temperatura.svg" id = "temperatura"/> 27°C</div>
-      <div class = "icon-dados"><img  src = "images/umidade.svg" id = "umidade"/> 81%</div>
-      <div class = "icon-dados"><img src = "images/peso.svg" id = "peso"/> 19kg</div>
-      <div class = "icon-dados"><img  src = "images/localizacao.svg" id = "localizacao"/>São Paulo</div>
-    </div>
-
-    <div id = 'colmeia7' class = 'colmeia'>
-      <h4> Colmeia 7 </h4>
-      <div class = "icon-dados"><img  src = "images/temperatura.svg" id = "temperatura"/> 22°C</div>
-      <div class = "icon-dados"><img  src = "images/umidade.svg" id = "umidade"/> 63%</div>
-      <div class = "icon-dados"><img src = "images/peso.svg" id = "peso"/>11g</div>
-      <div class = "icon-dados"><img  src = "images/localizacao.svg" id = "localizacao"/>Ponta Grossa</div>
-    </div>
-
-    <div id = 'colmeia8' class = 'colmeia'>
-      <h4> Colmeia 8 </h4>
-      <div class = "icon-dados"><img  src = "images/temperatura.svg" id = "temperatura"/> 25°C</div>
-      <div class = "icon-dados"><img  src = "images/umidade.svg" id = "umidade"/> 64%</div>
-      <div class = "icon-dados"><img src = "images/peso.svg" id = "peso"/> 11kg</div>
-      <div class = "icon-dados"><img  src = "images/localizacao.svg" id = "localizacao"/>Curitiba</div>
-    </div>
-
-    <div class = 'botao'><a href = "#"><button class = 'mais'>+</button></a></div>
-  </section>
-
-  <section class = 'resumo'>
-    <h3> Resumo </h3>
-    <div id = 'resultados'>
-      <h2> Últimas medições </h2>
-      <div class = 'grafico'>
-        Temperatura
-        <img src = "images/grafico-temperatura.jpeg"/>
-      </div>
-      <div class = 'grafico'>
-        Número de luminosdade
-        <img src = "images/numero-luminosidade.jpeg"/>
-      </div>
-      <div class = 'grafico'>
-        Temperatura de orvalho
-        <img src = "images/temperatura-orvalho.jpeg"/>
-      </div>
-    </div>
-
-    <div id = 'clima'>
-      <h2> Clima em suas principais colmeias</h2>
-      <div id="cont_27048e8d59b00bedd00cd01dc984afa4" class = 'widget-clima'><script type="text/javascript" async src="https://www.tempo.com/wid_loader/27048e8d59b00bedd00cd01dc984afa4"></script></div>
-      <div id="cont_132cac47a1dd5a8b2d5105084f207b2a" class = 'widget-clima'><script type="text/javascript" async src="https://www.tempo.com/wid_loader/132cac47a1dd5a8b2d5105084f207b2a"></script></div>
-    </div>
-  </section>
-</div>
-
 </body>
+
+</html>
