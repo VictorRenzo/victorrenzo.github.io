@@ -146,22 +146,49 @@ h2{
   color: #FFFFFF;
   padding: 1rem;
 }
-/*
-@media screen and (max-width: 1400px){
-  .myName{
-    font-size: 64px;
-  }
 
-  h2{
-    font-size: 30px;
-  }
-
-  h4{
-    font-size: 26px;
-  }
-
-  h6{
-    font-size: 18px;
-  }
+.titleProject, .descriptionParagraph{
+  text-align: justify;
+  width: 20rem;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
 }
-*/
+
+.titleProject{
+  text-align: center;
+  font-size: 16px;
+}
+
+.projectsLearning{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+}
+
+.projectImage{
+  width: 20rem;
+}
+
+.subtitleProjects{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.seeProject{
+  width: 8rem;
+  height: 2rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 0.8rem;
+  margin-left: 25%;
+  margin-top: 1rem;
+  background-color: #b6aea6;
+  cursor: pointer;
+}
